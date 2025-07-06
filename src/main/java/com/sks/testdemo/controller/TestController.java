@@ -10,7 +10,7 @@ public class TestController {
     @GetMapping("/")
 public String tesDemo(){
 
-    return "Spring boot test demo V2";
+    return "Spring boot test demo V6";
 }
 
 }
