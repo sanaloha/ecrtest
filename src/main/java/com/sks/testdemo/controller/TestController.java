@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-
+@RequestMapping ("/")
 public class TestController {
-    @GetMapping("/")
+    @GetMapping("/demo")
 public String tesDemo(){
 
-    return "Spring boot test demo V6";
+    return "welcome to Spring Boot";
 }
 
 }
